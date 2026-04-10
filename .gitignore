@@ -1,14 +1,46 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
+# --- Стандартне сміття Unreal Engine ---
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+FileOpenOrder/
+
+# --- Project files (automatically generated) ---*.xcodeproj
+*.xcworkspace
 *.sln
 *.suo
-*.xcodeproj
-*.xcworkspace
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# --- Visual Studio & IDE ---
+.vs/
+.idea/
+.vscode/
+*.VC.db
+*.VC.opendb
+
+# --- Temporary files and logs ---
+*.log
+*.tmp
+*.bak
+
+# --- Temporary files and logs ---
+.DS_Store
+Thumbs.db
+
+# --- User settings (to avoid conflicts with others) ---
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditorSettings.ini
+Config/DefaultEngineUserSettings.ini
+Config/DefaultGameUserSettings.ini
+Config/DefaultInputUserSettings.ini
+
+# --- Plugins (if they are compiled from source, their Binaries are also not needed) ---
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# --- Crash reports ---
+SourceContext.bin
